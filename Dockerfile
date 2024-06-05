@@ -19,12 +19,12 @@ RUN curl https://sh.rustup.rs -sSf | sh -s -- -y \
 # Set up environment variables
 ENV PATH="/root/.cargo/bin:${PATH}"
 
+RUN cargo install mdbook
 
 WORKDIR /usr/src/myapp
 
 COPY ./ ./
 
-RUN cargo install mdbook
 
 
 
