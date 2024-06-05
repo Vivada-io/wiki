@@ -56,7 +56,7 @@ By running this command you're set to work with the project in the local environ
 After running the project using [project setup with Docker](#steps-to-build-and-run-the-project-using-docker), run the command below in container shell which is currently running 
 
 ```bash
-cargo serve --open
+mdbook serve --open
 ```
 
 this will make the project run in the local host ([http://localhost:3000/](http://localhost:3000/))
