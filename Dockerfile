@@ -1,25 +1,19 @@
-FROM ubuntu:latest
+FROM rust:alpine
 
-RUN apt-get update \
-    && apt-get install -y \
+RUN apk update \
+    && apk add --no-cache \
+    bash \
     curl \
     wget \
     ca-certificates \
-    build-essential \
-    gcc \
-    && rm -rf /var/lib/apt/lists/*
+    build-base \
+    gcc
+
 
 SHELL ["/bin/bash", "-c"] 
 
-RUN curl https://sh.rustup.rs -sSf | sh -s -- -y \
-    && source $HOME/.cargo/env \
-    && rustup update \
-    && rustup default stable
 
-# Set up environment variables
-ENV PATH="/root/.cargo/bin:${PATH}"
-
-RUN cargo install mdbook
+RUN cargo install mdbook cargo-run-script
 
 WORKDIR /usr/src/myapp
 
