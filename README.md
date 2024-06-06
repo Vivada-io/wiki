@@ -61,7 +61,7 @@ mdbook serve --open
 
 this will make the project run in the local host ([http://localhost:3000/](http://localhost:3000/))
 
-Note: Make sure to keep the port 3000 available for this project. If any project running in *localhost:3000*, stop them before running this project.
+**Note**: Make sure to keep the port 3000 available for this project. If any project running in *localhost:3000*, stop them before running this project.
 
 ***
 
@@ -80,5 +80,5 @@ For suggestions, reports or to contact, click the image below to send a mail
 <a href="mailto:udayagiriavinag@gmail.com?subject=[GitHub]%20Vivada%20Wiki"><img src="https://img.shields.io/badge/gmail-%23DD0031.svg?&style=for-the-badge&logo=gmail&logoColor=white"/></a>
 
 
-With :heart:,
+With :heart:,\
 Avinag
