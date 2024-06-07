@@ -36,7 +36,7 @@ cd wiki
 Build the docker image by running the command below 
 
 ```bash
-cargo run-script build-docker-image
+docker build -t vivada-doc . 
 ```
 
 **Step-2**
@@ -44,7 +44,7 @@ cargo run-script build-docker-image
 Run the docker container by running the command below 
 
 ```bash 
-cargo run-script run-docker-container
+docker run -it --rm --name vivada-doc-running --net=host vivada-doc
 ```
 
 By running this command you're set to work with the project in the local environment using docker
