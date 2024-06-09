@@ -3,7 +3,7 @@ version: "3.9"
 services:
   wiki:
     build: .
-    command: sh -c "mdbook serve -n 0.0.0.0 -p 3000"
+    command: mdbook serve --open --hostname 0.0.0.0
     ports:
       - 3000:3000
     networks:

@@ -45,7 +45,7 @@ docker build -t vivada-doc .
 Run the docker container by running the command below
 
 ```bash
-docker run -it --rm --name vivada-doc-running --net=host vivada-doc
+docker run -it -p 3000:3000 --rm --name vivada-doc-running --network host vivada-doc
 ```
 
 By running this command you're set to work with the project in the local environment using docker
