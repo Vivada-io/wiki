@@ -5,22 +5,23 @@ RUN apk update \
     bash \
     curl \
     wget \
-    ca-certificates \
     build-base \
-    gcc 
+    net-tools
 
 SHELL ["/bin/bash", "-c"] 
 
 # Set up environment variables
 ENV PATH="/root/.cargo/bin:${PATH}"
 
-RUN cargo install mdbook
+RUN cargo install mdbook 
 
-ENV PORT = 3000
-    
-EXPOSE 3000
+# ENV PORT = 3000
+
+# EXPOSE 3000
 
 WORKDIR /usr/src/myapp
 
 COPY . .
+
+CMD ["mdbook" , "serve" , "--open"]
 
