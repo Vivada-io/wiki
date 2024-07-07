@@ -2,7 +2,7 @@
 layout: default
 title: Environment Setup and KT Videos
 parent: Dev Team
-grand_parent: Internship orientation 
+grand_parent: Teams
 nav_order: 1
 ---
 

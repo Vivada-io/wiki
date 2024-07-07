@@ -2,7 +2,7 @@
 layout: default
 title: Basic Git commands & operations
 parent: Dev Team
-grand_parent: Internship orientation 
+grand_parent: Teams
 nav_order: 2
 ---
 
