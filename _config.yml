@@ -20,8 +20,8 @@ company_name_lower-case: vivada
 
 
 
-title: Vivada Wiki 
-description: A documentory guide for all Essentials for Vivada
+title: Vivada Tech Wiki 
+description: A documentory guide for all Essentials for Vivada Tech
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vivada.io" # the base hostname & protocol for your site, e.g. http://example.com
 repository: Vivada-io/wiki # for github-metadata
@@ -111,7 +111,7 @@ heading_anchors: true
 
 # Aux links for the upper right navigation
 aux_links:
-  "Vivada Wiki on GitHub":
+  "Vivada Tech Wiki on GitHub":
     - "https://github.com/Vivada-io/wiki"
 
 # Makes Aux links open in a new tab. Default is false
@@ -127,8 +127,8 @@ nav_sort: case_sensitive # Capital letters sorted before lowercase
 
 # External navigation links
 nav_external_links:
-  - title: Vivada Wiki on GitHub
-    url: https://github.com/Vivada-io/wiki
+  # - title: Vivada Tech Wiki on GitHub
+  #   url: https://github.com/Vivada-io/wiki
 
 liquid:
    error_mode: strict
