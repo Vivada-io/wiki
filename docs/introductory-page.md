@@ -2,7 +2,7 @@
 layout: default
 title: Introduction
 nav_order: 1
-description: "An Introductory note for {{ site.company_name }} Wikipedia"
+description: "An Official Wikipedia of Vivada Tech"
 permalink: /
 ---
 

@@ -8,10 +8,9 @@ has_children: true
 
 # Dev Team
 
-
 {: .important-title }
 > Dev Team Guidelines
-- Depending on the team assignment, you are required to either present a previously completed demo project or create a new demo project using the relevant technology for that team. The technologies we work with include Git, Docker, Redis, GraphQL, Capacitor package, D3.js, Nginx, Novu, Celery, Jenkins, CI/CD pipelines, Postgres, Flutter, and Angular20. Kubernetes Grafana, AWS, Sonar Qube.
+- Depending on the team assignment, you are required to either present a previously completed demo project or create a new demo project using the relevant technology for that team. The technologies we work with include Git, Docker, Redis, GraphQL, D3.js, Nginx, Novu, Celery, Jenkins, CI/CD pipelines, Postgres, Flutter, and Expo, React. Kubernetes Grafana, AWS, Sonar Qube.
 - Upon completing the demo project, report your progress during the daily standup meeting.
 - After your demo project is reviewed and approved, you will be granted access to the GitHub repository for the real-time project.
 - Once you have access to the GitHub repositories, you will be able to assign tasks from the GitHub issues list.
@@ -20,9 +19,30 @@ has_children: true
 ## Protocols to follow for the Dev Team
 
 1. **Task Updates**: You should update your task progress in the `#task-updates` channel.
-
 2. **Posting Issues**: If you're encounter any issue or facing any troubles please post in the `#troubleshooting` channel.
 
+## Probation Rules:
+
+1. **Git Certification**: Complete the Git certification course - <a href="https://www.simplilearn.com/learn-git-basics-skillup" target="_blank">Free Git Course with Certification</a>
+
+2. **Demo Project**: Develop a demonstration project within a probation period of 4-6 weeks, focusing on the following functionalities based on your assigned team. Refer to the [tutorials](#tutorials) section for resources related to the respective technologies.
+
+    - **Frontend**
+
+        - Develop an _Expo_ project incorporating the following functionalities:
+            1. Implement an Audio/Visual interface using GetStream.io.
+            2. Integrate in-app notifications.
+            3. Establish basic API integrations.
+
+    - **Backend**
+
+        - Develop a _Django API_ project utilizing GraphQL, including:
+            1. Implementation of basic queries.
+            2. Implementation of mutations.
+
+3. **Standup Calls**: Attend the standup calls daily. If you cannot attend, inform the team ahead of time in the `#team-unavailability` channel.
+
+4. **Real-time Project Onboarding**: Once you have completed developing the demo project, you will be onboarded to the real-time project based on your performance and activity.
 
 ## Dev Onboarding Tasks
 
@@ -71,9 +91,13 @@ This is designed to prepare you to start working on tasks. If you find other tut
 1. [Web Programming Using Python and JavaScript](https://www.edx.org/learn/web-development/harvard-university-cs50-s-web-programming-with-python-and-javascript?index=product&queryID=d88d96ae8903cef6c83aa567ff57251f&position=3&linked_from=autocomplete&c=autocomplete)
 
 2. Frontend Technologies (Mandatory for a frontend developer):
-    1. [Angular for Dummies](https://youtu.be/IYI0em-xT28?si=lbHOm8tj7dd9psDj)
-    2. [Ngxs State Management](https://youtu.be/SfiO3bDUK7Q?si=s4r2U8oRNDOlevXp)
-  
+    1. [How to setup React Native with Expo quickly](https://youtu.be/y6DwGxe2E_k?si=AyqWLArOFD7aN-3S)
+    2. [ Build a FinTech Clone with React Native (API Routes, Zustand, Tanstack Query, FaceID, Charts, Clerk) ](https://youtu.be/iDZBeIgcixk?si=A7KlrIUEdIezNJ2v)
+    3. [ Every Way to Build your React Native App with Expo. Expo Go, Prebuild, Xcode, Android Studio & EAS ](https://youtu.be/cs-zgHjt5RQ?si=Bh9ZlI-YP7nWxGuI)
+    4. [ Building a Realtime Video and Chat App in React Native with Stream ](https://www.youtube.com/live/tUjv8LppDc4?si=q5wVs1b86E5YLnIJ)
+    5. [ How To Build a React Native Live Streaming App ](https://youtu.be/GYVZ4X2MtiI?si=ry3tt5Dvx41CPOss)
+    6. [Figma to React Native Conversion](https://www.locofy.ai/convert/figma-to-react-native)
+
 3. Backend Technologies (Mandatory for backend developer):
     1. [Docker for Dummies](https://youtu.be/pTFZFxd4hOI?si=O_RD3NzTj2me43VY)
     2. [Docker Compose](https://youtu.be/HG6yIjZapSA?si=ZiCIcPJPcrsCc1NI)
