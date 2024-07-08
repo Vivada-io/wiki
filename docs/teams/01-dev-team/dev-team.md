@@ -11,12 +11,18 @@ has_children: true
 
 {: .important-title }
 > Dev Team Guidelines
-- Depending on the team assignment, you are required to either present a previously completed demo project or create a new demo project using the relevant technology for that team. The technologies we work with include Git, Docker, Redis, GraphQL, Capacitor package, D3.js, Nginx, Novu, Celery, Jenkins, CI/CD pipelines, Postgres, Flutter, and Angular.
+- Depending on the team assignment, you are required to either present a previously completed demo project or create a new demo project using the relevant technology for that team. The technologies we work with include Git, Docker, Redis, GraphQL, Capacitor package, D3.js, Nginx, Novu, Celery, Jenkins, CI/CD pipelines, Postgres, Flutter, and Angular20. Kubernetes Grafana, AWS, Sonar Qube.
 - Upon completing the demo project, report your progress during the daily standup meeting.
 - After your demo project is reviewed and approved, you will be granted access to the GitHub repository for the real-time project.
 - Once you have access to the GitHub repositories, you will be able to assign tasks from the GitHub issues list.
 - Please ensure adherence to these guidelines to facilitate a smooth and productive internship experience.
  
+## Protocols to follow for the Dev Team
+
+1. **Task Updates**: You should update your task progress in the `#task-updates` channel.
+
+2. **Posting Issues**: If you're encounter any issue or facing any troubles please post in the `#troubleshooting` channel.
+
 
 ## Dev Onboarding Tasks
 
@@ -52,6 +58,10 @@ As you work in the team, you will need to be familiar with these terms to be eff
 17. Jenkins
 18. CI/CD pipelines
 19. Postgres
+20. Kubernetes
+21. Grafana
+22. Sonar Qube
+23. AWS
 
 ## Tutorials
 

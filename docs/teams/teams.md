@@ -5,3 +5,5 @@ title: Teams
 has_children: true
 permalink: /docs/teams
 ---
+
+# Teams
