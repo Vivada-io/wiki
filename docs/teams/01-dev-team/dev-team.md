@@ -23,9 +23,13 @@ has_children: true
 
 ## Probation Rules:
 
+
+
 1. **Git Certification**: Complete the Git certification course - <a href="https://www.simplilearn.com/learn-git-basics-skillup" target="_blank">Free Git Course with Certification</a>
 
-2. **Demo Project**: Develop a demonstration project within a probation period of 4-6 weeks, focusing on the following functionalities based on your assigned team. Refer to the [tutorials](#tutorials) section for resources related to the respective technologies.
+2. **Standup Calls**: Attend the standup calls daily. If you cannot attend, inform the team ahead of time in the `#team-unavailability` channel.
+
+3. **Demo Project**: Develop a demonstration project within a probation period of 4-6 weeks, focusing on the following functionalities based on your assigned team. Refer to the [tutorials](#tutorials) section for resources related to the respective technologies.
 
     - **Frontend**
 
@@ -39,8 +43,6 @@ has_children: true
         - Develop a _Django API_ project utilizing GraphQL, including:
             1. Implementation of basic queries.
             2. Implementation of mutations.
-
-3. **Standup Calls**: Attend the standup calls daily. If you cannot attend, inform the team ahead of time in the `#team-unavailability` channel.
 
 4. **Real-time Project Onboarding**: Once you have completed developing the demo project, you will be onboarded to the real-time project based on your performance and activity.
 

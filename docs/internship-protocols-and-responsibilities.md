@@ -9,9 +9,11 @@ permalink: /docs/internship-protocols-and-responsibilities
 
 Welcome to our internship program! To ensure a productive and successful experience, please adhere to the following rules throughout your internship:
 
-1. **Attendance at Required Calls**: It is mandatory to attend all scheduled calls assigned to your respective team. These sessions are essential for your learning and contribution to team projects.
+1. **Technical Requirements for Remote Participation**: Ensure you have a stable internet connection, clear audio, and the capability to share your screen during calls. These technical requirements are crucial for effective participation and collaboration.
 
-2. **Notification of Absence**: If you are unable to attend a scheduled session, you must notify us promptly. Please use the `#team-unavailability` channel to inform your team about your unavailability in advance.
+2. **Attendance at Required Calls**: It is mandatory to attend all scheduled calls assigned to your respective team. These sessions are essential for your learning and contribution to team projects.
+
+3. **Notification of Absence**: If you are unable to attend a scheduled session, you must notify us promptly. Please use the `#team-unavailability` channel to inform your team about your unavailability in advance.
 
 Failure to comply with these guidelines may result in termination from the internship program without prior notice. Your adherence to these protocols is crucial for maintaining a positive and productive internship experience.
 
