@@ -3,7 +3,7 @@ layout: default
 nav_order: 2
 title: Mail Client Setup
 parent: Internship Onboarding and Orientation 
-permalink: /docs/internship-onboarding-and-orientation/mai-client-setup
+permalink: /docs/internship-onboarding-and-orientation/mail-client-setup
 
 ---
 
@@ -19,7 +19,7 @@ permalink: /docs/internship-onboarding-and-orientation/mai-client-setup
 ## Steps:
 1. Get your email and password from the email that you’ve received from HR.
    ![](../../../assets/images/mail-client-setup-img-01.jpg)
-2. Download Microsoft Outlook on your phone and computer. [Click here](https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook) to access the official download.
+2. Download Microsoft Outlook on your phone and computer. [Click here]({{ site.external_source.microsoft_outlook }}) to access the official download.
    ![](../../../assets/images/mail-client-setup-img-02.png)
 3. Open Outlook and click on "Add account" and enter your email ID (from the email from HR) into Outlook.
 4. Enter the following details to complete your account setup:
@@ -31,6 +31,6 @@ permalink: /docs/internship-onboarding-and-orientation/mai-client-setup
 
 With these simple steps, you should be able to access your emails on your device. Please make sure to complete the process for **both your computer and mobile phone** so that you’re in sync.
 
-If you have any further questions, please watch this [video](https://drive.google.com/file/d/14IJWBL-xRaWNx2kUbdtgTaghBzOLm1VF/view?usp=sharing) or reach out to [hr@vivada.tech](mailto:hr@vivada.tech).
+If you have any further questions, please watch this [video]({{ site.external_source.mail_client_setup_vid_01 }}) or reach out to [hr@vivada.tech](mailto:hr@vivada.tech).
 
-The next step is to connect to the VPN, where you may also change your password. Please follow the steps [here](https://docs.google.com/document/d/1Htdl9dp5pCURAxfmyCreqcBV7EXnox3Y-oMw31gHi-s/edit?usp=sharing) to connect to VPN.
+The next step is to connect to the VPN, where you may also change your password. Please follow the steps [here]({{ site.external_source.mail_client_setup_vid_02 }}) to connect to VPN.

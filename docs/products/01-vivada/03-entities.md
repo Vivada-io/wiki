@@ -37,5 +37,5 @@ List of entities that are part of the application:\-
 	3. Organizational circles \(Private communities\)
 10. __Argument__ \- Collection of claims/citations/incidents that are linked to each other with connectors\.
 
-More info \- [Vivada\.io UX \- Google Sheets](https://docs.google.com/spreadsheets/d/1f173nz8HOJZefSP_QddFzn3ZbRqZsFgIYHUvsUICz9U/edit#gid=1733308482)
+More info \- [Vivada\.io UX \- Google Sheets]({{ site.external_source.vivada_google_ux_sheet}})
 

@@ -52,7 +52,7 @@ Periodic reviews by human moderators to maintain community guidelines\.
 
 ## <a id="_77623wiq594d"></a>User action flow:
 
-[Clickhere](https://miro.com/app/board/uXjVNa1YGTE=/?share_link_id=939315033805)
+[Click here]({{ site.external_source.miro_user_action_flow }})
 
 ## <a id="_hri4rp7j1ybg"></a>Future Developments
 

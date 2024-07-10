@@ -10,16 +10,16 @@ nav_order: 1
 
 ## Development Environment Setup
 
-1. [__VS Code__](https://code.visualstudio.com/download)
+1. [__VS Code__]({{ site.external_source.vs_code_download }})
 
    Please install the following VS Code extensions:
    1. **Common**
-      1. [GitLens — Git supercharged](https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens)
-      2. [Prettier - Code formatter](https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode)
+      1. [GitLens — Git supercharged]({{ site.external_source.vs_code_extension.git_lens }})
+      2. [Prettier - Code formatter]({{ site.external_source.vs_code_extension.prettier }})
    2. **Frontend extensions**
-      1. [Angular Language Service](https://marketplace.visualstudio.com/items?itemName=Angular.ng-template)
+      1. [Angular Language Service]({{ site.external_source.vs_code_extension.angular_language_service }})
    3. **Backend extensions**
-      1. [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
+      1. [Docker]({{ site.external_source.vs_code_extension.docker }})
       2. [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
       3. [Django](https://marketplace.visualstudio.com/items?itemName=batisteo.vscode-django)
       4. Set default terminal on VS Code  
