@@ -9,4 +9,4 @@ parent: Products
 # The Startup Club (TSC)
 
 
-[The Startup Club](https://thestartupclub.info/) is a network of entrepreneurs, investors, students, service providers, mentors, and enthusiasts interested in the startup ecosystem. The aim is to foster seamless integration among these diverse members, facilitating easy discovery and collaboration.
+[The Startup Club]({{ site.external_source.the_startup_club }}) is a network of entrepreneurs, investors, students, service providers, mentors, and enthusiasts interested in the startup ecosystem. The aim is to foster seamless integration among these diverse members, facilitating easy discovery and collaboration.

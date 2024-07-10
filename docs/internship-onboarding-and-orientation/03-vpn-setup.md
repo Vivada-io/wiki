@@ -11,7 +11,7 @@ permalink: /docs/internship-onboarding-and-orientation/vpn-setup
 
 ## Step-by-Step Instructions
 
-1. Open the URL [https://vpn.vivada.tech/](https://vpn.vivada.tech/) in your browser.
+1. Open the URL [{{ site.external_source.vivada_tech_vpn }}]({{ site.external_source.vivada_tech_vpn }}) in your browser.
 
 2. Redirect to the login page.
 

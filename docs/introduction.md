@@ -8,8 +8,7 @@ permalink: /
 
 # Introduction
 
-[Vivada Tech](https://vivada.tech/) is the official brand of Yarasi Enterprises Pvt Ltd. We are a small private limited company based in India registered in March 2024.
-
+[Vivada Tech]({{ site.external_source.vivada_tech }}) is the official brand of Yarasi Enterprises Pvt Ltd. We are a small private limited company based in India registered in March 2024.
 As a company we aspire to solve problems through technological interventions. Our goal is to build highly profitable yet highly functional products that are meticulously crafted to solve problems after exhaustive study of the first principles of those problems. Our team consists of young and vibrant visionaries, researchers, technologists and creators who aspire to build technology-powered solutions with independent vision and strategy. 
 
 # Products 

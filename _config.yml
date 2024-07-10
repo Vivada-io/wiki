@@ -14,13 +14,10 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 
-
 company_name: Vivada
 company_name_lower-case: vivada
 
-
-
-title: Vivada Tech Wiki 
+title: Vivada Tech Wiki
 description: A documentory guide for all Essentials for Vivada Tech
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "https://vivada.io" # the base hostname & protocol for your site, e.g. http://example.com
@@ -28,34 +25,33 @@ repository: Vivada-io/wiki # for github-metadata
 
 permalink: pretty
 
-
 exclude:
- # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
-   - .sass-cache/
-   - .jekyll-cache/
-   - gemfiles/
-   - Gemfile
-   - Gemfile.lock
-   - node_modules/
-   - vendor/bundle/
-   - vendor/cache/
-   - vendor/gems/
-   - vendor/ruby/
- # specific to the theme website:
-   - bin/
-   - lib/
-   - "*.gemspec"
-   - "*.gem"
-   - LICENSE.txt
-   - package.json
-   - package-lock.json
-   - Rakefile
-   - README.md
-   - CODE_OF_CONDUCT.md
-   - docker-compose.yml
-   - Dockerfile
- # theme test code
-   - fixtures/
+  # from https://github.com/jekyll/jekyll/blob/master/lib/site_template/_config.yml:
+  - .sass-cache/
+  - .jekyll-cache/
+  - gemfiles/
+  - Gemfile
+  - Gemfile.lock
+  - node_modules/
+  - vendor/bundle/
+  - vendor/cache/
+  - vendor/gems/
+  - vendor/ruby/
+  # specific to the theme website:
+  - bin/
+  - lib/
+  - "*.gemspec"
+  - "*.gem"
+  - LICENSE.txt
+  - package.json
+  - package-lock.json
+  - Rakefile
+  - README.md
+  - CODE_OF_CONDUCT.md
+  - docker-compose.yml
+  - Dockerfile
+  # theme test code
+  - fixtures/
 
 # Set a path/url to a logo that will be displayed instead of the title
 #logo: "/assets/images/just-the-docs.png"
@@ -87,7 +83,7 @@ search:
   # Supports true or false (default)
   button: false
   # Focus the search input by pressing `ctrl + focus_shortcut_key` (or `cmd + focus_shortcut_key` on macOS)
-  focus_shortcut_key: 'k'
+  focus_shortcut_key: "k"
 
 # For copy button on code
 enable_copy_code_button: true
@@ -115,7 +111,28 @@ aux_links:
     - "https://github.com/Vivada-io/wiki"
 
 # Makes Aux links open in a new tab. Default is false
-aux_links_new_tab: false
+aux_links_new_tab: true
+
+# External Websites and resources links. These sites open in new tab by following the logic provided in "_includes\js\custom.js"
+external_source:
+  vivada_tech: "https://vivada.tech"
+  the_startup_club: "https://thestartupclub.info/"
+  the_debate_club: "https://thedebateclub.info"
+  shuddhi: "https://shuddhi.io"
+  shuddhi_trust: "https://shuddhitrust.org/"
+  discord: "https://discord.com/download"
+  microsoft_outlook: "https://www.microsoft.com/en-us/microsoft-365/outlook/email-and-calendar-software-microsoft-outlook"
+  mail_client_setup_vid_01: "https://drive.google.com/file/d/14IJWBL-xRaWNx2kUbdtgTaghBzOLm1VF/view?usp=sharing"
+  mail_client_setup_vid_02: https://docs.google.com/document/d/1Htdl9dp5pCURAxfmyCreqcBV7EXnox3Y-oMw31gHi-s/edit?usp=sharing
+  vivada_tech_vpn: "https://vpn.vivada.tech"
+  miro_user_action_flow: "https://miro.com/app/board/uXjVNa1YGTE=/?share_link_id=939315033805"
+  vs_code_download: "https://code.visualstudio.com/download" 
+  vivada_google_ux_sheet: "https://docs.google.com/spreadsheets/d/1f173nz8HOJZefSP_QddFzn3ZbRqZsFgIYHUvsUICz9U/edit#gid=1733308482"
+  vs_code_extension:
+    git_lens: "https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens"
+    prettier: "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode"
+    angular_language_service: "https://marketplace.visualstudio.com/items?itemName=Angular.ng-template"
+    docker: https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker
 
 # Enable or disable the side/mobile menu globally
 # Nav menu can also be selectively enabled or disabled using page variables or the minimal layout
@@ -131,8 +148,8 @@ nav_external_links:
   #   url: https://github.com/Vivada-io/wiki
 
 liquid:
-   error_mode: strict
-   strict_filters: true
+  error_mode: strict
+  strict_filters: true
 
 # Footer content
 # appears at the bottom of every page's main content
@@ -146,8 +163,6 @@ back_to_top_text: "Back to top"
 # Footer last edited timestamp
 last_edit_timestamp: true # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
 last_edit_time_format: "%b %e %Y at %I:%M %p" # uses ruby's time format: https://ruby-doc.org/stdlib-2.7.0/libdoc/time/rdoc/Time.html
-
-
 
 # Footer "Edit this page on GitHub" link text
 gh_edit_link: true # show or hide edit this page link
