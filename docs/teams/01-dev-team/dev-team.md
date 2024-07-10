@@ -21,13 +21,9 @@ has_children: true
 1. **Task Updates**: You should update your task progress in the `#task-updates` channel.
 2. **Posting Issues**: If you're encounter any issue or facing any troubles please post in the `#troubleshooting` channel.
 
-# Example Markdown file
-
-Check out [Google]({{ site.external_links.google }}) or visit our [GitHub]({{ site.external_links.github }}).
-
 ## Probation Rules:
 
-1. **Git Certification**: Complete the Git course  - <a href="https://www.edx.org/learn/github/ibm-git-and-github-basics" target="_blank">Free Git Course Powered in IBM </a> (proceed with free course instead of certification)
+1. **Git Certification**: Complete the Git course  - <a href="https://www.edx.org/learn/github/ibm-git-and-github-basics" target="_blank">Free Git Course Powered by IBM </a> (proceed with free course instead of certification)
 
 2. **Standup Calls**: Attend the standup calls daily. If you cannot attend, inform the team ahead of time in the `#team-unavailability` channel.
 
@@ -36,7 +32,7 @@ Check out [Google]({{ site.external_links.google }}) or visit our [GitHub]({{ si
     - **Frontend**
 
         - Develop an _Expo_ project incorporating the following functionalities:
-            1. Implement an Audio/Visual interface using GetStream.io.
+            1. Implement an Audio/Visual interface using [Stream]({{ site.external_source.stream }}).
             2. Integrate in-app notifications.
             3. Establish basic API integrations.
 
