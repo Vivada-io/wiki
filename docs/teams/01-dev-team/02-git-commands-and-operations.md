@@ -144,4 +144,4 @@ Configure user information for all local repositories:
 
 ## The .gitignore File
 
-To exclude files from being tracked with Git, use the `.gitignore` file. Helpful templates for `.gitignore` files are available at [github.com/github/gitignore](https://github.com/github/gitignore).
+To exclude files from being tracked with Git, use the `.gitignore` file. Helpful templates for `.gitignore` files are available at [github.com/github/gitignore]({{ site.external_source.gitignore }}).

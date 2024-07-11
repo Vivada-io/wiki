@@ -20,13 +20,13 @@ nav_order: 1
       1. [Angular Language Service]({{ site.external_source.vs_code_extension.angular_language_service }})
    3. **Backend extensions**
       1. [Docker]({{ site.external_source.vs_code_extension.docker }})
-      2. [Python](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-      3. [Django](https://marketplace.visualstudio.com/items?itemName=batisteo.vscode-django)
+      2. [Python]({{ site.external_source.vs_code_extension.python }})
+      3. [Django]({{ site.external_source.vs_code_extension.django }})
       4. Set default terminal on VS Code  
 
       ![VS Code Terminal](../../../../assets/images/env-setup-kt-videos-img-01.png)
 
-2. [__NVM__](https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating)
+2. [__NVM__]({{ site.external_source.node_version_manager_github }})
 
    This is the node version manager that allows you to have multiple versions of Node on your machine. Please install it as per the instructions and ensure that you create a `.bashrc` file with the following content in the root folder. Follow these steps:
    1. Open VS Code and open a Git bash terminal.
@@ -45,8 +45,8 @@ nav_order: 1
 
 If you are unable to access the following videos, please reach out to Venkat and get access to them.
 
-1. [UI Code Walkthrough](https://youtu.be/DhU-J_sPrSw)
-2. [API Code Walkthrough](https://youtu.be/Kp_UR-4bSAE)
-3. [In-app Notifications](https://youtu.be/1Vo2buDZkjU)
-4. [DevOps](https://youtu.be/lHpL4L0TZCs)
-5. [ChatGPT API Integration](https://youtu.be/gTr2FYXtEgU)
+1. [UI Code Walkthrough]({{ site.external_source.kt_videos.ui_code_walkthrough }})
+2. [API Code Walkthrough]({{ site.external_source.kt_videos.api_code_walkthrough }})
+3. [In-app Notifications]({{ site.external_source.kt_videos.in_app_notifcations }})
+4. [DevOps]({{ site.external_source.kt_videos.devops }})
+5. [ChatGPT API Integration]({{ site.external_source.kt_videos.chatgpt_api_integration }})
