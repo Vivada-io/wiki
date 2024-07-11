@@ -23,7 +23,7 @@ has_children: true
 
 ## Probation Rules:
 
-1. **Git Certification**: Complete the Git course  - <a href="https://www.edx.org/learn/github/ibm-git-and-github-basics" target="_blank">Free Git Course Powered by IBM </a> (proceed with free course instead of certification)
+1. **Git Certification**: Complete the Git course  Free [Git Course Powered by IBM]({{ site.external_source.git_course_by_ibm }}) (proceed with free course instead of certification)
 
 2. **Standup Calls**: Attend the standup calls daily. If you cannot attend, inform the team ahead of time in the `#team-unavailability` channel.
 
@@ -31,16 +31,24 @@ has_children: true
 
     - **Frontend**
 
-        - Develop an _Expo_ project incorporating the following functionalities:
-            1. Implement an Audio/Visual interface using [Stream]({{ site.external_source.stream }}).
-            2. Integrate in-app notifications.
-            3. Establish basic API integrations.
+      {: .note}
+      If you're new to Expo, it is recommended to go through the course by clicking [here]({{ site.external_source.react_native_by_class_central }}). For additional resources, click [here](#additional-resources).
+
+      - Develop an _Expo_ project incorporating the following functionalities:
+        1. Implement an Audio/Visual interface using [Stream]({{ site.external_source.stream }}).
+        2. Integrate in-app notifications.
+        3. Establish basic API integrations.
 
     - **Backend**
 
-        - Develop a _Django API_ project utilizing GraphQL, including:
-            1. Implementation of basic queries.
-            2. Implementation of mutations.
+      {: .note}
+      If you're new to Backend (Django), it is recommended to go through the course by clicking [here]({{ site.external_source.web_programming_by_edx }}). For additional resources, click [here](#backend-technologies-mandatory-for-backend-developer).
+
+      - Develop a _Backend API_ project utilizing **[Django]({{ site.external_source.django}}), [PostgreSQL]({{ site.external_source.postgresql }}), [Docker]({{ site.external_source.docker }}), [Redis]({{ site.external_source.redis }}), [GraphQL]({{ site.external_source.graphql }})**, including:
+        1. Implementation of basic queries.
+        2. Implementation of mutations.
+        3. Server-side caching.
+
 
 4. **Real-time Project Onboarding**: Once you have completed developing the demo project, you will be onboarded to the real-time project based on your performance and activity.
 
@@ -88,27 +96,30 @@ As you work in the team, you will need to be familiar with these terms to be eff
 {: .note}
 This is designed to prepare you to start working on tasks. If you find other tutorials on these technologies more comfortable, feel free to use them. You might encounter different technical terms; please take the initiative to explore them.
 
-1. **Full Stack Developer Core Technologies (Mandatory for a Full stack developer):**
-    1. [Web Programming Using Python and JavaScript](https://www.edx.org/learn/web-development/harvard-university-cs50-s-web-programming-with-python-and-javascript) (**Tools and Technologies covered** : HTML, CSS, Git, Python, Javascript, Django, SQL)
+### **Full Stack Developer Core Technologies (Mandatory for a Full stack developer):**
+1. [Web Programming Using Python and JavaScript]({{ site.external_source.web_programming_by_edx }}) (**Tools and Technologies covered** : HTML, CSS, Git, Python, Javascript, Django, SQL)
 
-2. **Frontend Technologies (Mandatory for a Frontend Developer):**
-    1. [How to setup React Native with Expo quickly](https://youtu.be/y6DwGxe2E_k?si=AyqWLArOFD7aN-3S)
-    2. [ Build a FinTech Clone with React Native (API Routes, Zustand, Tanstack Query, FaceID, Charts, Clerk) ](https://youtu.be/iDZBeIgcixk?si=A7KlrIUEdIezNJ2v)
-    3. [ Every Way to Build your React Native App with Expo. Expo Go, Prebuild, Xcode, Android Studio & EAS ](https://youtu.be/cs-zgHjt5RQ?si=Bh9ZlI-YP7nWxGuI)
-    4. [ Building a Realtime Video and Chat App in React Native with Stream ](https://www.youtube.com/live/tUjv8LppDc4?si=q5wVs1b86E5YLnIJ)
-    5. [ How To Build a React Native Live Streaming App ](https://youtu.be/GYVZ4X2MtiI?si=ry3tt5Dvx41CPOss)
-    6. [Figma to React Native Conversion](https://www.locofy.ai/convert/figma-to-react-native)
+### **Frontend - Expo Framework (Mandatory for a Frontend Developer):**
+1. [Learn React Native by Class Central]({{ site.external_source.react_native_by_class_central }})
 
-3. **Backend Technologies (Mandatory for Backend Developer):**
-    1. [Docker for Dummies](https://youtu.be/pTFZFxd4hOI?si=O_RD3NzTj2me43VY)
-    2. [Docker Compose](https://youtu.be/HG6yIjZapSA?si=ZiCIcPJPcrsCc1NI)
-    3. Django - GraphQL:
-        1. [Introduction to Django GraphQL](https://youtu.be/kP7wQoFXUSc?si=AUwrs_MVWUTfbQbi)
-        2. [GraphQL Queries](https://youtu.be/unz3RgL9A-Y?si=TvXHUiCDlqqq7O-P)
-        3. [GraphQL CRUD](https://youtu.be/3819x3b43Ok?si=WL7C65Teo-P2FifK)
-    4. Django - Nginx (optional):
-        1. Learn how Django and Nginx are configured to send requests between Nginx and the Django server. [Link to video](https://youtu.be/N2t7L_K5LXo?si=MlQyCpC3gghLhbzu).
-    5. Novu Integration (optional):
-        1. Novu is an open-source notification infrastructure integrated into our application to avoid building a system like this from scratch. [NOVU API Overview](https://docs.novu.co/api-reference/overview).
+#### **Additional Resources**:
+1. [How to setup React Native with Expo quickly]({{ site.external_source.expo_additional_source.youtube_video_01 }})
+2. [ Build a FinTech Clone with React Native (API Routes, Zustand, Tanstack Query, FaceID, Charts, Clerk) ]({{ site.external_source.expo_additional_source.youtube_video_02 }})
+3. [ Every Way to Build your React Native App with Expo. Expo Go, Prebuild, Xcode, Android Studio & EAS ]({{ site.external_source.expo_additional_source.youtube_video_03 }})
+4. [ Building a Realtime Video and Chat App in React Native with Stream ]({{ site.external_source.expo_additional_source.youtube_video_04 }})
+5. [ How To Build a React Native Live Streaming App ]({{ site.external_source.expo_additional_source.youtube_video_05 }})
+6. [Figma to React Native Conversion]({{ site.external_source.expo_additional_source.youtube_video_06 }})
+
+### **Backend Technologies (Mandatory for Backend Developer):**
+1. [Docker for Dummies]({{ site.external_source.backend_addition_source.docker_for_dummies }})
+2. [Docker Compose]({{ site.external_source.backend_addition_source.docker_compose }})
+3. Django - GraphQL:
+    1. [Introduction to Django GraphQL]({{ site.external_source.backend_addition_source.intro_to_django_graphql }})
+    2. [GraphQL Queries]({{ site.external_source.backend_addition_source.graphql_queries }})
+    3. [GraphQL CRUD]({{ site.external_source.backend_addition_source.graphql_crud }})
+4. Django - Nginx (optional):
+    1. Learn how Django and Nginx are configured to send requests between Nginx and the Django server  by following this [Link]({{ site.external_source.backend_addition_source.django_nginx }}).
+5. Novu Integration (optional):
+    1. Novu is an open-source notification infrastructure integrated into our application to avoid building a system like this from scratch. [NOVU API Overview]({{ site.external_source.backend_addition_source.novu_api_overview }}).
 
 If you have additional resources that you would like to add here, please message the Dev Tech Lead.
