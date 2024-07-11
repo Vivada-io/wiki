@@ -44,10 +44,10 @@ has_children: true
       {: .note}
       If you're new to Backend (Django), it is recommended to go through the course by clicking [here]({{ site.external_source.web_programming_by_edx }}). For additional resources, click [here](#backend-technologies-mandatory-for-backend-developer).
 
-      - Develop a _Backend API_ project utilizing **[Django]({{ site.external_source.django}}), [PostgreSQL]({{ site.external_source.postgresql }}), [Docker]({{ site.external_source.docker }}), [Redis]({{ site.external_source.redis }}), [GraphQL]({{ site.external_source.graphql }})**, including:
+      - Develop a _Backend API_ project utilizing **[Django]({{ site.external_source.django}}), [PostgreSQL]({{ site.external_source.postgresql }}), [Docker]({{ site.external_source.docker }}), [Redis]({{ site.external_source.redis }})** (for server-side caching), **[GraphQL]({{ site.external_source.graphql }})**, including:
         1. Implementation of basic queries.
         2. Implementation of mutations.
-        3. Server-side caching.
+        3. Server-side caching (Redis).
 
 
 4. **Real-time Project Onboarding**: Once you have completed developing the demo project, you will be onboarded to the real-time project based on your performance and activity.
