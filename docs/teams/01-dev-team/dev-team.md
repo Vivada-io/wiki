@@ -38,6 +38,8 @@ has_children: true
         1. Implement an Audio/Visual interface using [Stream]({{ site.external_source.stream }}).
         2. Integrate in-app notifications.
         3. Establish basic API integrations.
+        4. Caching and State Management with Apollo GraphQL
+        5. Authentication and Authorization 
 
     - **Backend**
 
@@ -48,6 +50,19 @@ has_children: true
         1. Implementation of basic queries.
         2. Implementation of mutations.
         3. Server-side caching (Redis).
+        4. Implementation of Docker Compose file
+        5. Database Modeling in PostgreSQL
+        6. Many-to-Many Relationships in PostgreSQL
+        7. Database Constraints in PostgreSQL
+        8. GraphQL Query Notation in Django
+        9. GraphQL Types
+        10. Importing the sensitive data (passwords and secret keys) from .env(Environment) file
+        11. Database Migrations in Django
+        12. Performance Optimization 
+        13. Code Maintainability and Readability
+        14. Caching and Cache Invalidation with Redis
+        15. Slicing and Querying the Database in PostgreSQL
+        16. Model creation in Django
 
 
 4. **Real-time Project Onboarding**: Once you have completed developing the demo project, you will be onboarded to the real-time project based on your performance and activity.
@@ -106,7 +121,9 @@ This is designed to prepare you to start working on tasks. If you find other tut
 1. [How to setup React Native with Expo quickly]({{ site.external_source.expo_additional_source.youtube_video_01 }})
 2. [ Build a FinTech Clone with React Native (API Routes, Zustand, Tanstack Query, FaceID, Charts, Clerk) ]({{ site.external_source.expo_additional_source.youtube_video_02 }})
 3. [ Every Way to Build your React Native App with Expo. Expo Go, Prebuild, Xcode, Android Studio & EAS ]({{ site.external_source.expo_additional_source.youtube_video_03 }})
-4. [ Building a Realtime Video and Chat App in React Native with Stream ]({{ site.external_source.expo_additional_source.youtube_video_04 }})
+4. Building a Realtime Video and Chat App in React Native with Stream
+   1. [ Part-1 ]({{ site.external_source.expo_additional_source.youtube_video_04.part_01 }})
+   2. [ Part-2 ]({{ site.external_source.expo_additional_source.youtube_video_04.part_02 }})
 5. [ How To Build a React Native Live Streaming App ]({{ site.external_source.expo_additional_source.youtube_video_05 }})
 6. [Figma to React Native Conversion]({{ site.external_source.expo_additional_source.youtube_video_06 }})
 
