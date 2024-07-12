@@ -121,7 +121,7 @@ This is designed to prepare you to start working on tasks. If you find other tut
 1. [How to setup React Native with Expo quickly]({{ site.external_source.expo_additional_source.youtube_video_01 }})
 2. [ Build a FinTech Clone with React Native (API Routes, Zustand, Tanstack Query, FaceID, Charts, Clerk) ]({{ site.external_source.expo_additional_source.youtube_video_02 }})
 3. [ Every Way to Build your React Native App with Expo. Expo Go, Prebuild, Xcode, Android Studio & EAS ]({{ site.external_source.expo_additional_source.youtube_video_03 }})
-4. Building a Realtime Video and Chat App in React Native with Stream
+4. Building a Realtime Video and Chat App in React Native with Stream (Telegram Clone)
    1. [ Part-1 ]({{ site.external_source.expo_additional_source.youtube_video_04.part_01 }})
    2. [ Part-2 ]({{ site.external_source.expo_additional_source.youtube_video_04.part_02 }})
 5. [ How To Build a React Native Live Streaming App ]({{ site.external_source.expo_additional_source.youtube_video_05 }})
