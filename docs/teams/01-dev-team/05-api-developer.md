@@ -62,3 +62,24 @@ nav_order: 5
 ### Performance
 1. **Caching**: Implement caching strategies to improve performance.
 2. **Database Optimization**: Optimize database queries and indexing for better performance.
+
+
+
+## Tutorials
+
+{: .note}
+This is designed to prepare you to start working on tasks. If you find other tutorials on these technologies more comfortable, feel free to use them. You might encounter different technical terms; please take the initiative to explore them.
+
+1. [API Development using Django and GraphQL]({{ site.external_source.backend_addition_source.api_using_django_and_graphql }})
+2. [Deploying Django with Docker Compose]({{ site.external_source.backend_addition_source.docker_compose_with_django }})
+
+#### **Additional Resources**:
+3. [Docker for Dummies]({{ site.external_source.backend_addition_source.docker_for_dummies }})
+4. Django - Nginx (optional):
+    1. Learn how Django and Nginx are configured to send requests between Nginx and the Django server  by following this [Link]({{ site.external_source.backend_addition_source.django_nginx }}).
+5. Novu Integration (optional):
+    1. Novu is an open-source notification infrastructure integrated into our application to avoid building a system like this from scratch. [NOVU API Overview]({{ site.external_source.backend_addition_source.novu_api_overview }}).
+
+If you have additional resources that you would like to add here, please message the Dev Tech Lead.
+
+

@@ -162,11 +162,12 @@ external_source:
     youtube_video_05: "https://youtu.be/GYVZ4X2MtiI?si=ry3tt5Dvx41CPOss"
     youtube_video_06: "https://www.locofy.ai/convert/figma-to-react-native"
   backend_addition_source:
+    api_using_django_and_graphql: "https://youtube.com/playlist?list=PLOLrQ9Pn6caxz00JcLeOR-Rtq0Yi01oBH&si=kiflVaBdq35K6ttY"
+    docker_compose_with_django: " https://www.youtube.com/watch?v=mScd-Pc_pX0"
     docker_for_dummies: "https://youtu.be/pTFZFxd4hOI?si=O_RD3NzTj2me43VY"
-    docker_compose: "https://youtu.be/HG6yIjZapSA?si=ZiCIcPJPcrsCc1NI"
-    intro_to_django_graphql: "https://youtu.be/kP7wQoFXUSc?si=AUwrs_MVWUTfbQbi"
-    graphql_queries: "https://youtu.be/unz3RgL9A-Y?si=TvXHUiCDlqqq7O-P"
-    graphql_crud: "https://youtu.be/3819x3b43Ok?si=WL7C65Teo-P2FifK"
+    # intro_to_django_graphql: "https://youtu.be/kP7wQoFXUSc?si=AUwrs_MVWUTfbQbi"
+    # graphql_queries: "https://youtu.be/unz3RgL9A-Y?si=TvXHUiCDlqqq7O-P"
+    # graphql_crud: "https://youtu.be/3819x3b43Ok?si=WL7C65Teo-P2FifK"
     django_nginx: "https://youtu.be/N2t7L_K5LXo?si=MlQyCpC3gghLhbzu"
     novu_api_overview: "https://docs.novu.co/api-reference/overview"
 
@@ -253,3 +254,32 @@ compress_html:
   profile: false
   # ignore:
   #   envs: all
+
+
+# Terms that developer should be familiar with
+terms:
+  - Git
+  - Git pull, push, merge, commit, stage, stash
+  - Create merge request (create pull request)
+  - Docker
+  - Docker Compose
+  - Docker services
+  - Redis
+  - Caching (client-side vs server-side)
+  - GraphQL
+  - Package.json
+  - npm script
+  - Netlify
+  - Capacitor package
+  - D3.js
+  - Environment variables
+  - Nginx
+  - Novu
+  - Celery
+  - Jenkins
+  - CI/CD pipelines
+  - Postgres
+  - Kubernetes
+  - Grafana
+  - Sonar Qube
+  - AWS
