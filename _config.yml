@@ -127,9 +127,9 @@ external_source:
   mail_client_setup_vid_02: https://docs.google.com/document/d/1Htdl9dp5pCURAxfmyCreqcBV7EXnox3Y-oMw31gHi-s/edit?usp=sharing
   vivada_tech_vpn: "https://vpn.vivada.tech"
   miro_user_action_flow: "https://miro.com/app/board/uXjVNa1YGTE=/?share_link_id=939315033805"
-  vs_code_download: "https://code.visualstudio.com/download" 
+  vs_code_download: "https://code.visualstudio.com/download"
   vivada_google_ux_sheet: "https://docs.google.com/spreadsheets/d/1f173nz8HOJZefSP_QddFzn3ZbRqZsFgIYHUvsUICz9U/edit#gid=1733308482"
-  gitignore: "https://github.com/github/gitignore"  
+  gitignore: "https://github.com/github/gitignore"
   vs_code_extension:
     git_lens: "https://marketplace.visualstudio.com/items?itemName=eamodio.gitlens"
     prettier: "https://marketplace.visualstudio.com/items?itemName=esbenp.prettier-vscode"
@@ -137,8 +137,8 @@ external_source:
     docker: "https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker"
     python: "https://marketplace.visualstudio.com/items?itemName=ms-python.python"
     django: "https://marketplace.visualstudio.com/items?itemName=batisteo.vscode-django"
-  node_version_manager_github: "https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating"  
-  kt_videos: 
+  node_version_manager_github: "https://github.com/nvm-sh/nvm?tab=readme-ov-file#installing-and-updating"
+  kt_videos:
     ui_code_walkthrough: "https://youtu.be/DhU-J_sPrSw"
     api_code_walkthrough: "https://youtu.be/Kp_UR-4bSAE"
     in_app_notifcations: "https://youtu.be/1Vo2buDZkjU"
@@ -153,17 +153,21 @@ external_source:
   react_native_by_class_central: "https://www.codecademy.com/learn/learn-react-native"
   git_course_by_ibm: "https://www.edx.org/learn/github/ibm-git-and-github-basics"
   expo_additional_source:
+    debugging_react_native: "https://youtu.be/BayDYRigP5I?si=bzmhU4guQdUIyBo2"
     youtube_video_01: "https://youtu.be/y6DwGxe2E_k?si=AyqWLArOFD7aN-3S"
     youtube_video_02: "https://youtu.be/iDZBeIgcixk?si=A7KlrIUEdIezNJ2v"
     youtube_video_03: "https://youtu.be/cs-zgHjt5RQ?si=Bh9ZlI-YP7nWxGuI"
     youtube_video_04:
       part_01: "https://www.youtube.com/live/a_EdG30oGQI"
-      part_02: "https://www.youtube.com/live/tUjv8LppDc4?si=q5wVs1b86E5YLnIJ"   
+      part_02: "https://www.youtube.com/live/tUjv8LppDc4?si=q5wVs1b86E5YLnIJ"
     youtube_video_05: "https://youtu.be/GYVZ4X2MtiI?si=ry3tt5Dvx41CPOss"
     youtube_video_06: "https://www.locofy.ai/convert/figma-to-react-native"
   backend_addition_source:
     api_using_django_and_graphql: "https://youtube.com/playlist?list=PLOLrQ9Pn6caxz00JcLeOR-Rtq0Yi01oBH&si=kiflVaBdq35K6ttY"
     docker_compose_with_django: " https://www.youtube.com/watch?v=mScd-Pc_pX0"
+    intro_to_docker_compose: "https://youtu.be/vQmk9moF8vw?si=alqurvwJ0FyuJIZf"
+    docker_for_absolute_beginners: "https://www.youtube.com/watch?v=pg19Z8LL06w"
+    dockerfile_vs_docker_compose: "https://youtu.be/Z44UJUXsOGA?si=4_2A3g3ZUNtXWrbs"
     docker_for_dummies: "https://youtu.be/pTFZFxd4hOI?si=O_RD3NzTj2me43VY"
     # intro_to_django_graphql: "https://youtu.be/kP7wQoFXUSc?si=AUwrs_MVWUTfbQbi"
     # graphql_queries: "https://youtu.be/unz3RgL9A-Y?si=TvXHUiCDlqqq7O-P"
@@ -254,7 +258,6 @@ compress_html:
   profile: false
   # ignore:
   #   envs: all
-
 
 # Terms that developer should be familiar with
 terms:

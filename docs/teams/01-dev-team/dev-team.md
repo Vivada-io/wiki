@@ -3,6 +3,7 @@ layout: default
 nav_order: 1
 title: Dev Team
 parent: Teams
+has_toc: false
 has_children: true
 ---
 
@@ -23,38 +24,9 @@ has_children: true
 
 1. **Git Certification**: Complete the Git course  Free [Git Course Powered by IBM]({{ site.external_source.git_course_by_ibm }}) (proceed with free course instead of certification).
 
-2. **Project Development**: 
-
-   {: .note}
-   For beginners in Backend (Django), please refer to the API Developer tutorials [here](/docs/teams/01-dev-team/05-api-developer#tutorials). For Frontend (Expo) beginners, refer to the UI Developer tutorials [here](/docs/teams/01-dev-team/04-ui-developer#tutorials).
-   
-   - **Frontend**
-   <br>
-        If you're good at frontend, develop an _Expo_ project incorporating the following functionalities:
-        1. Implement an Audio/Visual interface using [Stream]({{ site.external_source.stream }}).
-        2. Integrate in-app notifications.
-        3. Establish basic API integrations.
-        4. Caching and State Management with Apollo GraphQL
-        5. Authentication and Authorization 
-
-   - **Backend**
-   <br>
-        If you're good at backend, develop a _Django_ project utilizing **[Django]({{ site.external_source.django}}), [PostgreSQL]({{ site.external_source.postgresql }}), [Docker]({{ site.external_source.docker }}), [Redis]({{ site.external_source.redis }})** (for server-side caching), **[GraphQL]({{ site.external_source.graphql }})**, by including the following functionalities:
-        1. Create Models using Django
-        2. Basic queries using Django/Graphql (Read Operations).
-        3. Mutations using Django/Graphql (Create, Update, Delete Operations).
-        4. Dockerize the project using `docker-compose.yml` file
-        5. Implement Server-side caching (Redis).
-
-        _Also you need to be familiar with these following concepts_
-        1. GraphQL Types
-        2. GraphQL Query Notation in Django
-        3. Database Migrations in Django
-        4. Database Constraints in PostgreSQL
-        5. Database Modeling in PostgreSQL
-        6. Many-to-Many and One-to-One Relationships using Django
-        11. Slicing and Querying the Database in PostgreSQL
-        10. Caching and Cache Invalidation with Redis
+2. **Project Development**: Based on the specialization you're working on, please refer to the links below to see the guidelines of project development related to your specialization.
+     1. [Frontend Developer (UI Specialist)](/docs/teams/01-dev-team/04-ui-developer/#project-development-guidelines-for-probees)
+     2. [Backend Developer (API Specialist)](/docs/teams/01-dev-team/05-api-developer/#project-development-guidelines-for-probees)
 
 ## Dev Onboarding Tasks
 
@@ -96,13 +68,6 @@ As you work in the team, you will need to be familiar with these terms to be eff
 2. Performance Optimization 
 3. Code Maintainability and Readability
 
-## Tutorials
 
-{: .note}
-This is designed to prepare you to start working on tasks. If you find other tutorials on these technologies more comfortable, feel free to use them. You might encounter different technical terms; please take the initiative to explore them.
 
-### **Full Stack Developer Core Technologies (Suggested for a Full stack developer):**
-1. [Web Programming Using Python and JavaScript]({{ site.external_source.web_programming_by_edx }}) (**Tools and Technologies covered** : HTML, CSS, Git, Python, Javascript, Django, SQL)
-
----
-You can refer to the next sections by clicking the links below 
+{: .no_toc }
