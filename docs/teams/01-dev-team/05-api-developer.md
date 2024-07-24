@@ -10,6 +10,31 @@ nav_order: 5
 
 # API Team
 
+## Project Development guidelines for probees
+
+{: .note}
+For beginners in Backend (Django), please refer to the API Developer tutorials [here](#tutorials). 
+
+
+If you're good at backend, develop a _Django_ project utilizing **[Django]({{ site.external_source.django}}), [PostgreSQL]({{ site.external_source.postgresql }}), [Docker]({{ site.external_source.docker }}), [Redis]({{ site.external_source.redis }})** (for server-side caching), **[GraphQL]({{ site.external_source.graphql }})**, by including the following functionalities:
+1. Create Models using Django
+2. Basic queries using Django/Graphql (Read Operations).
+3. Mutations using Django/Graphql (Create, Update, Delete Operations).
+4. Dockerize the project using `docker-compose.yml` file
+5. Implement Server-side caching (Redis).
+
+_Also you need to be familiar with these following concepts_
+1. GraphQL Types
+2. GraphQL Query Notation in Django
+3. Database Migrations in Django
+4. Database Constraints in PostgreSQL
+5. Database Modeling in PostgreSQL
+6. Many-to-Many and One-to-One Relationships using Django
+11. Slicing and Querying the Database in PostgreSQL
+10. Caching and Cache Invalidation with Redis
+
+
+
 ## Role and Responsibilities:
 
 ### API (Application Programming Interface) Developer
@@ -74,10 +99,14 @@ This is designed to prepare you to start working on tasks. If you find other tut
 2. [Deploying Django with Docker Compose]({{ site.external_source.backend_addition_source.docker_compose_with_django }})
 
 #### **Additional Resources**:
-3. [Docker for Dummies]({{ site.external_source.backend_addition_source.docker_for_dummies }})
-4. Django - Nginx (optional):
+1. Docker
+    1. [Docker Crash Course for Absolute Beginners [NEW]]({{ site.external_source.backend_addition_source.docker_for_absolute_beginners }})
+    2. [Introduction to docker compose - Docker]({{ site.external_source.backend_addition_source.intro_to_docker_compose }})
+    3. [Docker Compose vs Dockerfile - Dockerfile Explained - Docker Tutorial]({{ site.external_source.backend_addition_source.dockerfile_vs_docker_compose }})
+    4. [Docker for Dummies]({{ site.external_source.backend_addition_source.docker_for_dummies }})
+2. Django - Nginx (optional):
     1. Learn how Django and Nginx are configured to send requests between Nginx and the Django server  by following this [Link]({{ site.external_source.backend_addition_source.django_nginx }}).
-5. Novu Integration (optional):
+3. Novu Integration (optional):
     1. Novu is an open-source notification infrastructure integrated into our application to avoid building a system like this from scratch. [NOVU API Overview]({{ site.external_source.backend_addition_source.novu_api_overview }}).
 
 If you have additional resources that you would like to add here, please message the Dev Tech Lead.
