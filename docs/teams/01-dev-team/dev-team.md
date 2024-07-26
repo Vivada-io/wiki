@@ -9,6 +9,7 @@ has_children: true
 
 
 # Dev Team
+Before proceeding, please review the Agile Methodology by [clicking here](/docs/agile-methodology) to understand the development cycle.
 
 ## Guidelines for Probees:
 

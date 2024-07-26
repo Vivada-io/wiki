@@ -43,7 +43,7 @@ nav_order: 1
 
 ## KT Videos
 
-If you are unable to access the following videos, please reach out to Venkat and get access to them.
+If you are unable to access the following videos, please reach out to Dev Lead and get access to them.
 
 1. [UI Code Walkthrough]({{ site.external_source.kt_videos.ui_code_walkthrough }})
 2. [API Code Walkthrough]({{ site.external_source.kt_videos.api_code_walkthrough }})
