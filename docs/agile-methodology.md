@@ -57,13 +57,13 @@ The aim of the company is to adopt Agile Methodology to improve project manageme
 ## SCRUM Ceremonies
 
 ### Backlog Refinement Meeting
-- Removing [user stories](http://guide.agilealliance.org/guide/stories.html) that no longer appear relevant
+- Removing user stories that no longer appear relevant
 - Creating new user stories in response to newly discovered needs
 - Re-assessing the relative priority of stories
-- Define/Update [acceptance criteria](http://scrummethodology.com/scrum-acceptance-criteria/) for each backlog
+- Define/Update acceptance criteria for each backlog
 - Assigning estimates to stories which have yet to receive one
 - Correcting estimates in light of newly discovered information
-- [Splitting](http://guide.agilealliance.org/guide/split.html) user stories which are high priority but too coarse-grained to fit in an upcoming [iteration](http://guide.agilealliance.org/guide/iteration.html)
+- Splitting user stories which are high priority but too coarse-grained to fit in an upcoming iteration
 
 ### Sprint Planning
 The Sprint planning meeting is a negotiation between the team and the product owner about what the team will do during the sprint.
