@@ -1,12 +1,62 @@
 ---
 layout: default
-title: Basic Git commands & operations
+title: Git commands & operations
 parent: Dev Team
 grand_parent: Teams
 nav_order: 2
 ---
 
-# Basic Git commands & operations
+# Git commands & operations
+
+## Important git flow to follow.
+
+Commits should be made as often as possible. This is to ensure a back up of your work. You're welcome to push your branch up to Github to have a remote backup of your work! It will not be reviewed unless you create a PR (Pull Request).  
+
+**Example of commit:**
+```bash
+git add .
+git commit -m "WIP - Brief description of changes"
+```
+
+ {: .note}
+   The WIP stands for work in progress. This is not necessary but it does look a lot cleaner when you're looking for a specific commits in the future.
+
+**1. Branch & Update:**
+git pull your branch.
+Switch to dev: git checkout dev.
+Create a branch: git checkout -b <branch>.
+
+**2. Make Changes:**
+Implement your feature.
+
+**3. Push & PR:**
+Push changes: git push origin <branch>.
+Create PR from <branch> to dev.
+*Include a descriptive title for the PR (used as the commit message on the main branch). Please use initials followed by  ticket number and description of your ticket.*
+Example: 
+`AT-54 Fix header alignment`
+
+**4. Review & Merge:**
+Discuss changes in PR.
+Merge after approval.
+
+**5. Stay Updated:**
+Regularly pull from dev to avoid any merge conflicts. 
+
+*Tips:*
+No direct pushes to main.
+Keep commits and PRs clean.
+
+Feature branch name should be your initials followed by  ticket number and description of your ticket.
+
+Example:
+Developer: Aaron Tan 
+git checkout -b at-54-fix-header-alignment
+branch name should look like this
+
+`at-54-fix-header-alignment`
+
+# More Git commands to know
 
 ## Configuration
 
