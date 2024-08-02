@@ -21,40 +21,61 @@ git commit -m "WIP - Brief description of changes"
  {: .note}
    The WIP stands for work in progress. This is not necessary but it does look a lot cleaner when you're looking for a specific commits in the future.
 
-**1. Branch & Update:**
-git pull your branch.
-Switch to dev: git checkout dev.
-Create a branch: git checkout -b <branch>.
+### 1. Branch & Update:
+  - `git pull` your branch.
+  - Switch to `dev`: `git checkout dev`
+  - Create a branch: `git checkout -b <branch>`.
 
-**2. Make Changes:**
+
+### 2. Make Changes:
 Implement your feature.
 
-**3. Push & PR:**
-Push changes: git push origin <branch>.
-Create PR from <branch> to dev.
-*Include a descriptive title for the PR (used as the commit message on the main branch). Please use initials followed by  ticket number and description of your ticket.*
-Example: 
-`AT-54 Fix header alignment`
+### 3. Commit Changes:
 
-**4. Review & Merge:**
-Discuss changes in PR.
-Merge after approval.
+- **Stage changes**: `git add .` (or specify individual files).
 
-**5. Stay Updated:**
+- **Commit changes with a descriptive message**: `git commit -m "Your message describing the changes"`
+
+{: .note}
+Keep your commit messages clear and concise. It's helpful to reference any related issue or ticket number in the commit message.
+
+### 4. Push & PR:
+
+{: .note}
+  To know about PR (Pull Request), [click here]({{site.external_source.github_pr}})  
+
+-  **Push changes**: `git push origin <branch>`.
+-  **Create PR from `<branch>` to `dev`**: Include a descriptive title for the PR (used as the commit message on the main branch). Please use initials followed by  ticket number and description of your ticket.
+   
+   **_Example_**: 
+    `AT-54 Fix header alignment`
+
+
+### 5. Review & Merge:
+- Discuss changes in PR.
+- Merge after approval.
+
+### 6. Stay Updated:
 Regularly pull from dev to avoid any merge conflicts. 
 
-*Tips:*
-No direct pushes to main.
-Keep commits and PRs clean.
+{: .important}
+Don't push any updates directly into the `dev` or `main` without notice.
 
-Feature branch name should be your initials followed by  ticket number and description of your ticket.
 
-Example:
-Developer: Aaron Tan 
-git checkout -b at-54-fix-header-alignment
-branch name should look like this
+### **Tips:**
+- Keep commits and PRs clean.
 
-`at-54-fix-header-alignment`
+- Feature branch name should be your initials followed by  ticket number and description of your ticket.
+
+  **Example**:
+    
+    Developer: Aaron Tan 
+    
+    command should `git checkout -b at-54-fix-header-alignment`
+    
+    branch name should look like this `at-54-fix-header-alignment`
+
+To Learn more about git, refer to this [Git KT Video]({{ site.external_source.kt_videos.git }}) 
 
 # More Git commands to know
 

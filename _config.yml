@@ -144,6 +144,7 @@ external_source:
     in_app_notifcations: "https://youtu.be/1Vo2buDZkjU"
     devops: "https://youtu.be/lHpL4L0TZCs"
     chatgpt_api_integration: "https://youtu.be/gTr2FYXtEgU"
+    git: "https://www.youtube.com/watch?v=ar1xNJrmYgI"
   django: "https://www.djangoproject.com/"
   postgresql: "https://www.postgresql.org/"
   docker: "https://www.docker.com"
@@ -174,6 +175,7 @@ external_source:
     # graphql_crud: "https://youtu.be/3819x3b43Ok?si=WL7C65Teo-P2FifK"
     django_nginx: "https://youtu.be/N2t7L_K5LXo?si=MlQyCpC3gghLhbzu"
     novu_api_overview: "https://docs.novu.co/api-reference/overview"
+  github_pr: "https://www.youtube.com/watch?v=8lGpZkjnkt4"
 
 # Enable or disable the side/mobile menu globally
 # Nav menu can also be selectively enabled or disabled using page variables or the minimal layout

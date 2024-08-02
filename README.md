@@ -5,13 +5,10 @@
 <p align="center">
     <h1 align="center">Just the Docs</h1>
     <p align="center">A modern, highly customizable, and responsive Jekyll theme for documentation with built-in search.<br>Easily hosted on GitHub Pages with few dependencies.</p>
-    <p align="center"><strong><a href="https://just-the-docs.com/">See it in action!</a></strong></p>
+    <p align="center"><strong><a href="https://wiki.vivada.tech/">See it in action!</a></strong></p>
     <br><br><br>
 </p>
 
-<p align="center">A video walkthrough of various Just the Docs features</p>
-
-https://user-images.githubusercontent.com/85418632/211225192-7e5d1116-2f4f-4305-bb9b-437fe47df071.mp4
 
 ## Installation
 
