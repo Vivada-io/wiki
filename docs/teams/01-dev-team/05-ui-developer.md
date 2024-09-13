@@ -3,7 +3,7 @@ layout: default
 title: UI (User Interface) Developer
 parent: Dev Team
 grand_parent: Teams
-nav_order: 4
+nav_order: 5
 ---
 
 # UI (User Interface) Developer

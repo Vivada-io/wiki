@@ -3,7 +3,7 @@ layout: default
 title: Algorithms Team
 parent: Dev Team
 grand_parent: Teams
-nav_order: 6
+nav_order: 7
 ---
 
 

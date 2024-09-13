@@ -3,7 +3,7 @@ layout: default
 title: DevOps Engineer
 parent: Dev Team
 grand_parent: Teams
-nav_order: 8
+nav_order: 9
 ---
 
 # DevOps Engineer
