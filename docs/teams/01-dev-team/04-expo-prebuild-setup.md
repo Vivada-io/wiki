@@ -18,11 +18,17 @@ This guide will walk you through the process of setting up your development envi
 ## Step 1: Install Android Studio and Required Dependencies
 
 1. Open Android Studio and navigate to SDK Manager from the *More Actions* dropdown button > SDK Tools.
+
+![Android Studio Home Screen](../../../../assets/images/prebuild-setup-img-01.png)
+![Android Studio SDK Platforms](../../../../assets/images/prebuild-setup-img-02.png)
 2. Ensure the following components are checked:
    - NDK
    - CMake
    - Android SDK CLI
+
+   ![Android Studio SDK Platforms](../../../../assets/images/prebuild-setup-img-03.png)
 3. Apply the changes to download the packages.
+4. Make sure you have JAVA SE 17
 
 ## Step 2: Set Environment Variables
 
